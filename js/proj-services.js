@@ -8,12 +8,12 @@ function createProjs() {
     var projs = getFromStorage('projsDB')
     if(!projs){
         projs = [
-            createProj('Mine sweeper','Minesweeper Sprint 1'),
-            createProj('Book Shop','Book Shop'),
-            createProj('Bootstrap','Bootsrap Project'),
-            createProj('Pacman','Pacman Project'),
-            createProj('Ballboard','Ballboard Project'),
-            createProj('Guess who','Guess who Project'),
+            createProj('minesweeper','Minesweeper Sprint 1'),
+            createProj('bookshop','Book Shop'),
+            createProj('bootstrap','Bootsrap Project'),
+            createProj('pacman','Pacman Project'),
+            createProj('ballboard','Ballboard Project'),
+            createProj('guesswho','Guess who Project'),
         ]
         saveOnStorage('projsDB',projs)
     }
